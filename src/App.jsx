@@ -151,7 +151,11 @@ function ProductDetails({ flavor, onBack, onSelect }) {
       <header className="detail-nav">
         <button type="button" onClick={onBack} aria-label="Back to flavors">← Back</button>
         <strong className="detail-brand">ROF PRE</strong>
-        <span>LEVEL 7</span>
+        <span className="detail-logo-lockup" aria-label="ROF Nutrition Athlete Grade">
+          <span className="logo-rof"><b>R</b><span className="logo-wolf" /><b>F</b></span>
+          <span className="logo-word">NUTRITION</span>
+          <small>ATHLETE GRADE</small>
+        </span>
       </header>
       <div className="detail-hero">
         <div className="detail-copy">

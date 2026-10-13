@@ -55,6 +55,11 @@ body{background:#0B1020;font-family:'Figtree',sans-serif}
 .detail-nav button{border:0;background:none;color:inherit;font:700 15px 'Figtree';cursor:pointer}
 .detail-nav strong{font:900 32px Algerian,'Big Shoulders Display',serif;color:#111;letter-spacing:.04em}
 .detail-nav span{font:800 13px 'Figtree';letter-spacing:.14em}
+.detail-logo-lockup{display:flex;flex-direction:column;align-items:center;color:var(--detail-color);line-height:1;letter-spacing:normal}
+.detail-logo-lockup .logo-rof{font-size:23px;gap:1px}
+.detail-logo-lockup .logo-wolf{width:20px;height:20px;background:var(--detail-color)}
+.detail-logo-lockup .logo-word{margin-top:2px;font-size:8px;letter-spacing:.16em}
+.detail-logo-lockup small{margin-top:2px;font:700 5px/1 'Figtree';letter-spacing:.2em}
 .detail-hero{position:relative;max-width:1200px;margin:auto;min-height:500px;display:grid;grid-template-columns:42% 58%;align-items:center;padding:36px 30px 12px;overflow:hidden}
 .detail-copy,.detail-product{position:relative;z-index:1}
 .detail-copy{padding:20px 0 20px 2vw}
